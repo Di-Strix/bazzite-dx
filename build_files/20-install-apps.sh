@@ -26,6 +26,9 @@ dnf5 install -y \
 dnf5 remove -y \
     mesa-libOpenCL \
     rom-properties-kf6 \
+    rom-properties-gtk4 \
+    rom-properties-localsearch3 \
+    rom-properties-utils \
     krunner-bazaar \
     tesseract-devel \
     tesseract-langpack-{ces,chi_sim,chi_sim_vert,chi_tra,chi_tra_vert,deu,ell,fra,ita,jpn,jpn_vert,nld,pol,por,rus,spa,tur} \
