@@ -24,7 +24,16 @@ dnf5 install -y \
     zsh
 
 dnf5 remove -y \
-    mesa-libOpenCL
+    mesa-libOpenCL \
+    rom-properties-kf6 \
+    krunner-bazaar \
+    tesseract-devel \
+    tesseract-langpack-{ces,chi_sim,chi_sim_vert,chi_tra,chi_tra_vert,deu,ell,fra,ita,jpn,jpn_vert,nld,pol,por,rus,spa,tur} \
+    plasma-oxygen \
+    oxygen-icon-theme
+
+rm /usr/bin/bbrew-helper
+rm /usr/share/applications/bbrew.desktop
 
 dnf5 --setopt=install_weak_deps=False install -y \
     rocm-hip \
